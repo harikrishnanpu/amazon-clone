@@ -15,7 +15,7 @@ const app = express();
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-mongoose.connect(process.env.MONGODB_URL || 'mongodb+srv://admin:mongo123@amazon-clone.0lfwp.mongodb.net/myFirstDatabase?retryWrites=true&w=majorit', {
+mongoose.connect(process.env.MONGODB_URL || 'mongodb+srv://admin:mongo123@amazon-clone.0lfwp.mongodb.net/myFirstDatabase?retryWrites=true', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
   useCreateIndex: true,
