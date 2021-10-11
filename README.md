@@ -134,7 +134,7 @@ $ npm start
    7. require express
    8. create route for / return backend is ready.
    9. move products.js from frontend to backend
-   10. create route for /api/products
+   10. create route for /api/products 
    11. return products
    12. run npm start
 10. Load Products From Backend
